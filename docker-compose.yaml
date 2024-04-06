@@ -1,0 +1,7 @@
+services:
+  web:  # Replace with your desired service name
+    build: .
+    ports:
+      - "8000:8000"  # Replace with your desired port mapping
+    volumes:
+      - ./:/app  # Mount your current directory as /app in the container
